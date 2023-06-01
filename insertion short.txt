@@ -1,0 +1,26 @@
+Sıralama Aşamaları
+
+1.aşama 22,27,16,2,18,6
+2.aşama 22,27,16,2,18,6
+3.aşama 16,22,27,2,18,6
+4.aşama 2,16,22,27,18,6
+5.aşama 2,16,18,22,27,6
+6.aşama 2,6,16,18,22,27
+
+Big-O Gösterimi
+
+n
+n-1
+n-2
+n-3
+n-4
+1
+
+O(n2) degerindedir.
+
+18 sayısı : Average case kapsamına girer. Aradığımız sayı ortadadır.
+
+1.adım 2, 3, 5, 8, 7, 9, 4, 15, 6
+2.adım 2, 3, 5, 8, 7, 9, 4, 15, 6
+3.adım 2, 3, 4, 8, 7, 9, 5, 15, 6
+4.adım 2, 3, 4, 5, 7, 9, 8, 15, 6
